@@ -1,0 +1,410 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Vishwakarma Foundation And Seva Trust</title>
+
+
+<link rel="stylesheet" href="bootstrap/bootstrap.css" />
+<script type="text/javascript" src="bootstrap/jquery.js"></script> 
+<script type="text/javascript" src="bootstrap/bootstrap.js"></script> 
+
+<link rel="stylesheet" href="css/style.css" />
+
+<!--NAV-->
+ <link rel="stylesheet" href="css/nav.css">
+ <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+ <script src="js/script.js"></script> 
+<!--END NAV -->  
+
+
+<!--Gallery--> 
+<script type="text/javascript" src="gallery/jquery-1.10.1.min.js"></script>
+ 	<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="gallery/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="gallery/jquery.fancybox.css?v=2.1.5" media="screen" />
+<script type="text/javascript">
+ $(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+ 			$('.fancybox').fancybox();
+ 			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			  
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+		 
+
+			 
+
+
+		});
+	</script> 
+<!--END Gallery-->
+</head>
+<body>
+<div class="container-fluid top-bg"> </div>
+<div class="container-fluid header"> 
+  <div class="container">
+    <a href="index.html"><img src="images/logo.png" class="img-responsive" /></a>
+  </div>
+</div>
+<div class="container-fluid nav"> 
+  <div class="container">
+  <div class="col-md-11 col-sm-11">
+     <div id='cssmenu'>
+		<ul>
+		   <li><a href='index.html' > Home   </a></li>
+		   <li><a href='aboutus.html'> About Us </a></li> <li><a href='president-message.html'> President Message </a></li>
+           <li><a href='founders-team.html'> Trustees & Executive Members </a></li>
+		   <li><a href='services.html'>  Services  </a></li><li><a href='gallery.html'>  Gallery  </a></li>
+		   <li><a href='news-events.html'> News & Events </a></li>
+           <li><a href='donations.html'> Donations </a> </li>
+		   <li><a href='contact.html'> Contact Us </a> </li>
+         </ul>
+	 </div>
+   </div>
+   <div class="col-md-1 col-sm-1 social">
+    <a href="https://www.facebook.com/Vishwakarma-Foundation-Seva-Trust-1418477775074117/?fref=ts" target="_blank"><img src="images/fb.png" /></a>
+ 
+    
+    
+   </div>  
+   </div>
+ </div>
+<div class="container-fluid body"> 
+  <div class="container">
+    <div class="col-md-12 col-sm-12 left-body no-pm">
+      <div class="col-md-12 no-pm">
+       <h4>Vivaha Parichaya Vedika held on 8th July 2018 @ Vijayawada</h4>
+       <div class="clearfix"></div>
+         <div class="row no-pm">
+     	 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/1.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/1.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/2.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/2.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+        
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/3.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/3.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/4.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/4.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/5.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/5.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/6.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/6.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/7.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/7.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/8.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/8.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+<div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/9.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/9.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/10.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/10.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/11.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/11.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/12.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/12.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+ <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/13.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/13.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/14.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/14.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+        
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/15.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/15.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/16.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/16.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/17.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/17.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/18.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/18.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/19.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/19.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/20.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/20.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/22.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/22.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/23.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/23.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/24.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/24.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+<div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/25.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/25.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/26.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/26.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/28.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/28.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+       
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/30.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/30.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/31.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/31.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/32.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/32.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/33.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/33.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/34.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/34.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/35.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/35.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/36.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/36.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+ <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/37.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/37.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/38.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/38.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+        
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/39.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/39.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/40.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/40.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+         <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/41.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/41.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/42.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/42.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/43.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/43.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/44.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/44.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+		 <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/45.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/45.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+<div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/21.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/21.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+                 
+<div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/27.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/27.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+  <div class="col-md-4 col-sm-3 no-lp">
+           <a class="thumbnail fancybox" href="images/parichayavedika/29.JPG" data-fancybox-group="gallery" >
+             <img src="images/parichayavedika/29.JPG" class="no-pm img-responsive" />
+           </a>
+         </div>
+     
+      </div>
+     </div>
+    </div>
+ 
+  </div>
+</div>
+<div class="container-fluid footer-bg">
+  <div class="container" align="center">
+  powered by <a href="http://www.ostrichadvertising.com/" target="_blank">Ostrich Advertising</a>
+  </div>
+</div>
+</body>
+</html>
